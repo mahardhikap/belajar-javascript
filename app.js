@@ -15,17 +15,17 @@
 //     console.log('Angka lebih kecil dari 0.5');
 // }
 
-const iniHari = prompt('Isikan hari!').toLowerCase();
+// const iniHari = prompt('Isikan hari!').toLowerCase();
 
-if(iniHari === 'senin') {
-    console.log('Selamat bekerja kawan!');
-} else if(iniHari === 'sabtu') {
-    console.log('Semoga jangan cepat berlalu!');
-} else if (iniHari === 'minggu') {
-    console.log('Hari yang syahdu!');
-} else {
-    console.log('Yah biasa saja');
-}
+// if(iniHari === 'senin') {
+//     console.log('Selamat bekerja kawan!');
+// } else if(iniHari === 'sabtu') {
+//     console.log('Semoga jangan cepat berlalu!');
+// } else if (iniHari === 'minggu') {
+//     console.log('Hari yang syahdu!');
+// } else {
+//     console.log('Yah biasa saja');
+// }
 
 // const nilai = '49';
 
@@ -40,3 +40,17 @@ if(iniHari === 'senin') {
 // } else if (nilai < 100) {
 //     console.log('A');
 // }
+
+const password = prompt('buat password!');
+
+//password harus sepanjang 6 karakter
+if(password.length >= 6) {
+    if(password.indexOf(' ') === -1) {
+        console.log('Password valid');
+    } else {
+        console.log('Password tidak boleh ada spasi');
+    }
+} else {
+    console.log('Password minimal 6 karakter');
+}
+
