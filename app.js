@@ -108,7 +108,12 @@
 
 //atau
 
-for (let i = 20; i >= 0; i-- ) {
+// for (let i = 20; i >= 0; i-- ) {
+//     console.log('ini namanya loop');
+//     console.log(i);
+// }
+
+for (let i = 10; i <= 100000; i *= 10 ) {
     console.log('ini namanya loop');
     console.log(i);
 }
