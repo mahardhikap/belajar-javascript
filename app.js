@@ -96,7 +96,12 @@
 //     console.log(i);
 // }
 
-for (let i = 1; i <= 20; i += 2) {
+// for (let i = 1; i <= 20; i += 2) {
+//     console.log('ini namanya loop');
+//     console.log(i);
+// }
+
+for (let i = 20; i >= 0; i -= 1) {
     console.log('ini namanya loop');
     console.log(i);
 }
