@@ -113,7 +113,13 @@
 //     console.log(i);
 // }
 
-for (let i = 10; i <= 100000; i *= 10 ) {
-    console.log('ini namanya loop');
-    console.log(i);
+// for (let i = 10; i <= 100000; i *= 10 ) {
+//     console.log('ini namanya loop');
+//     console.log(i);
+// }
+
+const animals = ['cat', 'dog', 'chicken', 'bird', 'fish'];
+
+for (let i = 0; i < animals.length; i++) {
+    console.log(i, animals[i]);
 }
