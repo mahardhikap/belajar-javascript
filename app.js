@@ -125,19 +125,19 @@
 // }
 
 
-const studentRow = [
-    ['Fany', 'Nanda', 'Khadijah', 'Zahra'],
-    ['Nafis', 'Rafif', 'Bhram', 'Wanda'],
-    ['Azka', 'Daffa', 'Pratama', 'Dita'],
-];
+// const studentRow = [
+//     ['Fany', 'Nanda', 'Khadijah', 'Zahra'],
+//     ['Nafis', 'Rafif', 'Bhram', 'Wanda'],
+//     ['Azka', 'Daffa', 'Pratama', 'Dita'],
+// ];
 
-for (let i = 0; i < studentRow.length; i++) {
-    const row = studentRow[i];
-    console.log(`Seat Row #${i + 1}`);
-    for (let j = 0; j < row.length; j++) {
-        console.log(`  ${row[j]}`);
-    }
-}
+// for (let i = 0; i < studentRow.length; i++) {
+//     const row = studentRow[i];
+//     console.log(`Seat Row #${i + 1}`);
+//     for (let j = 0; j < row.length; j++) {
+//         console.log(`  ${row[j]}`);
+//     }
+// }
 
 
 // const pilihan = 'abcd';
@@ -148,3 +148,11 @@ for (let i = 0; i < studentRow.length; i++) {
 //         console.log(`     ${pilihan[j]}. Pilihan jawaban`);
 //     }
 // }
+
+
+
+let num = 0;
+while (num < 10) {
+    console.log(num);
+    num++;
+}
