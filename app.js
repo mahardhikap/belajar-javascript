@@ -151,8 +151,17 @@
 
 
 
-let num = 0;
-while (num < 10) {
-    console.log(num);
-    num++;
+// let num = 0;
+// while (num < 10) {
+//     console.log(num);
+//     num++;
+// }
+
+
+const PASSWORD = 'Pass123';
+
+let guess = prompt('enter the password');
+while (guess !== PASSWORD) {
+    guess = prompt('enter the password');
 }
+alert('congrats! the password is correct');
