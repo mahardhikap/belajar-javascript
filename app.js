@@ -211,10 +211,10 @@
 
 const fruits = ['Jackfruit', 'Durian', 'Pineapple', 'Melon', 'Watermelon'];
 
-for (let i = 0; i < fruits.length; i++) {
-    console.log(`Buah ${fruits[i]}`);
-}
-
-// for (const buah of fruits) {
-//     console.log(`Buah ${buah}`);
+// for (let i = 0; i < fruits.length; i++) {
+//     console.log(`Buah ${fruits[i]}`);
 // }
+
+for (const buah of fruits) {
+    console.log(`Buah ${buah}`);
+}
