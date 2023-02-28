@@ -125,11 +125,11 @@
 // }
 
 
-// const studentRow = [
-//     ['Fany', 'Nanda', 'Khadijah', 'Zahra'],
-//     ['Nafis', 'Rafif', 'Bhram', 'Wanda'],
-//     ['Azka', 'Daffa', 'Pratama', 'Dita'],
-// ];
+const studentRow = [
+    ['Fany', 'Nanda', 'Khadijah', 'Zahra'],
+    ['Nafis', 'Rafif', 'Bhram', 'Wanda'],
+    ['Azka', 'Daffa', 'Pratama', 'Dita'],
+];
 
 // for (let i = 0; i < studentRow.length; i++) {
 //     const row = studentRow[i];
@@ -138,6 +138,17 @@
 //         console.log(`  ${row[j]}`);
 //     }
 // }
+
+
+for (let i = 0; i < studentRow.length; i++) {
+    const row = studentRow[i];
+    console.log(`Seat row #${i + 1}`);
+    for (let row2 of row) {
+        console.log(`   ${row2}`);
+    }
+}
+
+
 
 
 // const pilihan = 'abcd';
@@ -209,12 +220,12 @@
 // ^^^^ Batas Bawah Code Game ^^^^
 
 
-const fruits = ['Jackfruit', 'Durian', 'Pineapple', 'Melon', 'Watermelon'];
+// const fruits = ['Jackfruit', 'Durian', 'Pineapple', 'Melon', 'Watermelon'];
 
-// for (let i = 0; i < fruits.length; i++) {
-//     console.log(`Buah ${fruits[i]}`);
+// // for (let i = 0; i < fruits.length; i++) {
+// //     console.log(`Buah ${fruits[i]}`);
+// // }
+
+// for (const buah of fruits) {
+//     console.log(`Buah ${buah}`);
 // }
-
-for (const buah of fruits) {
-    console.log(`Buah ${buah}`);
-}
