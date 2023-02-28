@@ -182,28 +182,39 @@
 
 // vvvv Batas Atas Code Game vvvv
 
-let maximum = parseInt(prompt('Masukkan nilai maksimal!'));
-let attempts = 1;
+// let maximum = parseInt(prompt('Masukkan nilai maksimal!'));
+// let attempts = 1;
 
-while (!maximum) {
-    maximum = parseInt(prompt('Masukkan nilai maksimal!'));
-}
+// while (!maximum) {
+//     maximum = parseInt(prompt('Masukkan nilai maksimal!'));
+// }
 
-const targetNum = Math.floor(Math.random() * maximum) + 1;
-console.log(targetNum);
+// const targetNum = Math.floor(Math.random() * maximum) + 1;
+// console.log(targetNum);
 
-let guess = parseInt(prompt('Isi tebakan pertama kamu!'));
+// let guess = parseInt(prompt('Isi tebakan pertama kamu!'));
 
 
-while (parseInt(guess) !== targetNum) {
-    attempts++;
-    if (guess > targetNum) {
-        guess = parseInt(prompt('Terlalu tinggi! tebak lagi:'));
-    } else {
-        guess = parseInt(prompt('Terlalu rendah! tebak lagi:'));
-    }
-}
+// while (parseInt(guess) !== targetNum) {
+//     attempts++;
+//     if (guess > targetNum) {
+//         guess = parseInt(prompt('Terlalu tinggi! tebak lagi:'));
+//     } else {
+//         guess = parseInt(prompt('Terlalu rendah! tebak lagi:'));
+//     }
+// }
 
-alert(`Selamat tebakanmu benar! Dengan percobaan ${attempts} kali`);
+// alert(`Selamat tebakanmu benar! Dengan percobaan ${attempts} kali`);
 
 // ^^^^ Batas Bawah Code Game ^^^^
+
+
+const fruits = ['Jackfruit', 'Durian', 'Pineapple', 'Melon', 'Watermelon'];
+
+for (let i = 0; i < fruits.length; i++) {
+    console.log(`Buah ${fruits[i]}`);
+}
+
+// for (const buah of fruits) {
+//     console.log(`Buah ${buah}`);
+// }
