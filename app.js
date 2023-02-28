@@ -158,10 +158,18 @@
 // }
 
 
-const PASSWORD = 'Pass123';
+// const PASSWORD = 'Pass123';
 
-let guess = prompt('enter the password');
-while (guess !== PASSWORD) {
-    guess = prompt('enter the password');
+// let guess = prompt('enter the password');
+// while (guess !== PASSWORD) {
+//     guess = prompt('enter the password');
+// }
+// alert('congrats! the password is correct');
+
+
+let input = prompt('Hei, say something!');
+while (true) {
+    input = prompt(input);
+    if (input.toLowerCase() === 'stop') break;
 }
-alert('congrats! the password is correct');
+alert('ok');
