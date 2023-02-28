@@ -175,7 +175,35 @@
 // alert('ok');
 
 
-for (let i = 0; i < 10000; i++) {
-    console.log(i);
-    if (i === 100) break;
+// for (let i = 0; i < 10000; i++) {
+//     console.log(i);
+//     if (i === 100) break;
+// }
+
+// vvvv Batas Atas Code Game vvvv
+
+let maximum = parseInt(prompt('Masukkan nilai maksimal!'));
+let attempts = 1;
+
+while (!maximum) {
+    maximum = parseInt(prompt('Masukkan nilai maksimal!'));
 }
+
+const targetNum = Math.floor(Math.random() * maximum) + 1;
+console.log(targetNum);
+
+let guess = parseInt(prompt('Isi tebakan pertama kamu!'));
+
+
+while (parseInt(guess) !== targetNum) {
+    attempts++;
+    if (guess > targetNum) {
+        guess = parseInt(prompt('Terlalu tinggi! tebak lagi:'));
+    } else {
+        guess = parseInt(prompt('Terlalu rendah! tebak lagi:'));
+    }
+}
+
+alert(`Selamat tebakanmu benar! Dengan percobaan ${attempts} kali`);
+
+// ^^^^ Batas Bawah Code Game ^^^^
