@@ -125,11 +125,11 @@
 // }
 
 
-const studentRow = [
-    ['Fany', 'Nanda', 'Khadijah', 'Zahra'],
-    ['Nafis', 'Rafif', 'Bhram', 'Wanda'],
-    ['Azka', 'Daffa', 'Pratama', 'Dita'],
-];
+// const studentRow = [
+//     ['Fany', 'Nanda', 'Khadijah', 'Zahra'],
+//     ['Nafis', 'Rafif', 'Bhram', 'Wanda'],
+//     ['Azka', 'Daffa', 'Pratama', 'Dita'],
+// ];
 
 // for (let i = 0; i < studentRow.length; i++) {
 //     const row = studentRow[i];
@@ -140,13 +140,13 @@ const studentRow = [
 // }
 
 
-for (let i = 0; i < studentRow.length; i++) {
-    const row = studentRow[i];
-    console.log(`Seat row #${i + 1}`);
-    for (let row2 of row) {
-        console.log(`   ${row2}`);
-    }
-}
+// for (let i = 0; i < studentRow.length; i++) {
+//     const row = studentRow[i];
+//     console.log(`Seat row #${i + 1}`);
+//     for (let row2 of row) {
+//         console.log(`   ${row2}`);
+//     }
+// }
 
 
 
@@ -229,3 +229,21 @@ for (let i = 0; i < studentRow.length; i++) {
 // for (const buah of fruits) {
 //     console.log(`Buah ${buah}`);
 // }
+
+
+const studentScore = {
+    Olivia: 20,
+    Liam: 13,
+    Emma: 40,
+    Noah: 18,
+    Amelia: 32,
+    Oliver: 10,
+    Ava: 11,
+    Elijah: 21,
+    Sophia: 14,
+    Mateo: 22,
+};
+
+for (let student in studentScore) {
+    console.log(`${student} memiliki skor ${studentScore[student]}`);
+}
