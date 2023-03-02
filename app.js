@@ -261,9 +261,16 @@
 // }
 
 
-function nyanyi() {
-    console.log('Cek...');
-    console.log('Do re mi...');
+// function nyanyi() {
+//     console.log('Cek...');
+//     console.log('Do re mi...');
+// }
+
+// nyanyi();
+
+
+function selamatPagi(name) {
+    console.log(`Hello, ${name}. Selamat Pagi!`);
 }
 
-nyanyi();
+selamatPagi('Mahardhika');
