@@ -269,8 +269,14 @@
 // nyanyi();
 
 
-function selamatPagi(name) {
-    console.log(`Hello, ${name}. Selamat Pagi!`);
-}
+// function selamatPagi(name) {
+//     console.log(`Hello, ${name}. Selamat Pagi!`);
+// }
 
-selamatPagi('Mahardhika');
+// selamatPagi('Mahardhika');
+
+
+function jumlahkan(a = 0, b = 0) {
+    const total = a + b;
+    console.log(total);
+}
