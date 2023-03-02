@@ -256,6 +256,14 @@
 // console.log(total / scores.length);
 
 // let lemparDadu = console.log(lemparDadu);
-function lemparDadu() {
-    console.log(Math.floor(Math.random() * 6) + 1);
+// function lemparDadu() {
+//     console.log(Math.floor(Math.random() * 6) + 1);
+// }
+
+
+function nyanyi() {
+    console.log('Cek...');
+    console.log('Do re mi...');
 }
+
+nyanyi();
