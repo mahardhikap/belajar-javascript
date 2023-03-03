@@ -124,7 +124,6 @@
 //     console.log(i + 1, animals[i]);
 // }
 
-
 // const studentRow = [
 //     ['Fany', 'Nanda', 'Khadijah', 'Zahra'],
 //     ['Nafis', 'Rafif', 'Bhram', 'Wanda'],
@@ -139,7 +138,6 @@
 //     }
 // }
 
-
 // for (let i = 0; i < studentRow.length; i++) {
 //     const row = studentRow[i];
 //     console.log(`Seat row #${i + 1}`);
@@ -147,9 +145,6 @@
 //         console.log(`   ${row2}`);
 //     }
 // }
-
-
-
 
 // const pilihan = 'abcd';
 
@@ -160,14 +155,11 @@
 //     }
 // }
 
-
-
 // let num = 0;
 // while (num < 10) {
 //     console.log(num);
 //     num++;
 // }
-
 
 // const PASSWORD = 'Pass123';
 
@@ -177,14 +169,12 @@
 // }
 // alert('congrats! the password is correct');
 
-
 // let input = prompt('Hei, say something!');
 // while (true) {
 //     input = prompt(input);
 //     if (input.toLowerCase() === 'stop') break;
 // }
 // alert('ok');
-
 
 // for (let i = 0; i < 10000; i++) {
 //     console.log(i);
@@ -205,7 +195,6 @@
 
 // let guess = parseInt(prompt('Isi tebakan pertama kamu!'));
 
-
 // while (parseInt(guess) !== targetNum) {
 //     attempts++;
 //     if (guess > targetNum) {
@@ -219,7 +208,6 @@
 
 // ^^^^ Batas Bawah Code Game ^^^^
 
-
 // const fruits = ['Jackfruit', 'Durian', 'Pineapple', 'Melon', 'Watermelon'];
 
 // // for (let i = 0; i < fruits.length; i++) {
@@ -229,7 +217,6 @@
 // for (const buah of fruits) {
 //     console.log(`Buah ${buah}`);
 // }
-
 
 // const studentScore = {
 //     Olivia: 20,
@@ -260,7 +247,6 @@
 //     console.log(Math.floor(Math.random() * 6) + 1);
 // }
 
-
 // function nyanyi() {
 //     console.log('Cek...');
 //     console.log('Do re mi...');
@@ -268,13 +254,11 @@
 
 // nyanyi();
 
-
 // function selamatPagi(name) {
 //     console.log(`Hello, ${name}. Selamat Pagi!`);
 // }
 
 // selamatPagi('Mahardhika');
-
 
 // function jumlahkan(a, b) {
 //     if (typeof a !== 'number' || typeof b !== 'number') {
@@ -282,7 +266,6 @@
 //     }
 //     return a + b;
 // }
-
 
 // let programming = 'JavaScript';
 
@@ -293,7 +276,6 @@
 
 // typeSafe();
 // console.log(programming);
-
 
 // let tinggi = 8;
 // if(tinggi > 5) {
@@ -308,8 +290,6 @@
 //     console.log('Lebar lebih kecil dari 10: ', lebar);
 // }
 
-
-
 // function lamarKerja() {
 //     const jabatan = 'Programmer';
 //     function orangDalam() {
@@ -319,16 +299,11 @@
 //     orangDalam();
 // }
 
-
-
 // function perpangkatan(nilai) {
 //     return nilai * nilai;
 // }
 
-
 // let hasil = perpangkatan(5);
-
-
 
 // const hasilPerpangkatan = function(nilai) {
 //     return nilai * nilai;
@@ -336,20 +311,15 @@
 
 // hasilPerpangkatan();
 
-
-
 // function duaKali(func) {
 //     func()
 //     func()
 // }
 
-
 // function lemparDadu() {
 //     const hasil = Math.floor(Math.random() * 6) + 1;
 //     console.log(hasil);
 // }
-
-
 
 // function hasilnyaAdalahFunction() {
 //     const rand = Math.random()
@@ -364,8 +334,6 @@
 //     }
 // }
 
-
-
 // function myFun() { //function biasa
 //     console.log('Hi');
 //     return 'Hello';
@@ -377,11 +345,16 @@
 //     }
 // }
 
+// const saya = {
+//     nama: 'Mahardhika',
+//     hobi: 'Youtube-an',
+//     kenalan: function() {
+//         return `Hi nama saya ${this.nama}. Hobi saya yaitu ${this.hobi}.`
+//     }
+// }
 
-const saya = {
-    nama: 'Mahardhika',
-    hobi: 'Youtube-an',
-    kenalan: function() {
-        return `Hi nama saya ${this.nama}. Hobi saya yaitu ${this.hobi}.`
-    }
+try {
+  saya.kenalan();
+} catch {
+  console.log("error!!!");
 }
