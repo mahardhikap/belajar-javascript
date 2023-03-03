@@ -295,15 +295,26 @@
 // console.log(programming);
 
 
-let tinggi = 8;
-if(tinggi > 5) {
-    let lebar = 10;
-    console.log('Lebar: ', lebar);
-}
+// let tinggi = 8;
+// if(tinggi > 5) {
+//     let lebar = 10;
+//     console.log('Lebar: ', lebar);
+// }
 
-console.log('Tinggi: ', tinggi);
+// console.log('Tinggi: ', tinggi);
 
-for (let index = 0; index < 10; index++) {
-    const lebar = index;
-    console.log('Lebar lebih kecil dari 10: ', lebar);
+// for (let index = 0; index < 10; index++) {
+//     const lebar = index;
+//     console.log('Lebar lebih kecil dari 10: ', lebar);
+// }
+
+
+
+function lamarKerja() {
+    const jabatan = 'Programmer';
+    function orangDalam() {
+        let kenalan = `Orang dalam bisa memasukkan ${jabatan}`;
+        console.log(kenalan);
+    }
+    orangDalam();
 }
