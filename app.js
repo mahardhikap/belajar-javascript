@@ -330,8 +330,21 @@
 
 
 
-const hasilPerpangkatan = function(nilai) {
-    return nilai * nilai;
+// const hasilPerpangkatan = function(nilai) {
+//     return nilai * nilai;
+// }
+
+// hasilPerpangkatan();
+
+
+
+function duaKali(func) {
+    func()
+    func()
 }
 
-hasilPerpangkatan();
+
+function lemparDadu() {
+    const hasil = Math.floor(Math.random() * 6) + 1;
+    console.log(hasil);
+}
