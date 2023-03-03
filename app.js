@@ -351,15 +351,28 @@
 
 
 
-function hasilnyaAdalahFunction() {
-    const rand = Math.random()
-    if(rand > 0.5) {
-        return function() {
-            console.log('Selamat, angkanya lebih besar');
-        }
-    } else {
-        return function() {
-            console.log('Maaf, mungkin bisa coba lagi');
-        }
+// function hasilnyaAdalahFunction() {
+//     const rand = Math.random()
+//     if(rand > 0.5) {
+//         return function() {
+//             console.log('Selamat, angkanya lebih besar');
+//         }
+//     } else {
+//         return function() {
+//             console.log('Maaf, mungkin bisa coba lagi');
+//         }
+//     }
+// }
+
+
+
+function myFun() { //function biasa
+    console.log('Hi');
+    return 'Hello';
+}
+
+const myMath = { //object
+    perkalian: function (x, y) { //method
+        return x * y;
     }
 }
