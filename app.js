@@ -278,5 +278,5 @@
 
 function jumlahkan(a = 0, b = 0) {
     const total = a + b;
-    console.log(total);
+    return total;
 }
