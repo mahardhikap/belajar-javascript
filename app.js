@@ -366,13 +366,22 @@
 
 
 
-function myFun() { //function biasa
-    console.log('Hi');
-    return 'Hello';
-}
+// function myFun() { //function biasa
+//     console.log('Hi');
+//     return 'Hello';
+// }
 
-const myMath = { //object
-    perkalian: function (x, y) { //method
-        return x * y;
+// const myMath = { //object
+//     perkalian: function (x, y) { //method
+//         return x * y;
+//     }
+// }
+
+
+const saya = {
+    nama: 'Mahardhika',
+    hobi: 'Youtube-an',
+    kenalan: function() {
+        return `Hi nama saya ${this.nama}. Hobi saya yaitu ${this.hobi}.`
     }
 }
