@@ -321,9 +321,17 @@
 
 
 
-function perpangkatan(nilai) {
+// function perpangkatan(nilai) {
+//     return nilai * nilai;
+// }
+
+
+// let hasil = perpangkatan(5);
+
+
+
+const hasilPerpangkatan = function(nilai) {
     return nilai * nilai;
 }
 
-
-let hasil = perpangkatan(5);
+hasilPerpangkatan();
