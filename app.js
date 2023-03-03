@@ -359,11 +359,19 @@
 //   console.log("error!!!");
 // }
 
-function teriak(msg) {
-  try {
-    console.log(msg.toUpperCase());
-  } catch (error) {
-    console.log(error);
-    console.log("Silahkan masukkan tipe data string ke argument teriak()");
-  }
+// function teriak(msg) {
+//   try {
+//     console.log(msg.toUpperCase());
+//   } catch (error) {
+//     console.log(error);
+//     console.log("Silahkan masukkan tipe data string ke argument teriak()");
+//   }
+// }
+
+const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+function print(element) {
+  console.log(element);
 }
+
+angka.forEach(print)
