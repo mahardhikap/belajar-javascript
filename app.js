@@ -276,7 +276,9 @@
 // selamatPagi('Mahardhika');
 
 
-function jumlahkan(a = 0, b = 0) {
-    const total = a + b;
-    return total;
+function jumlahkan(a, b) {
+    if (typeof a !== 'number' || typeof b !== 'number') {
+        return 'not number';
+    }
+    return a + b;
 }
