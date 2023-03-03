@@ -353,8 +353,17 @@
 //     }
 // }
 
-try {
-  saya.kenalan();
-} catch {
-  console.log("error!!!");
+// try {
+//   saya.kenalan();
+// } catch {
+//   console.log("error!!!");
+// }
+
+function teriak(msg) {
+  try {
+    console.log(msg.toUpperCase());
+  } catch (error) {
+    console.log(error);
+    console.log("Silahkan masukkan tipe data string ke argument teriak()");
+  }
 }
