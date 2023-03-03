@@ -284,12 +284,26 @@
 // }
 
 
-let programming = 'JavaScript';
+// let programming = 'JavaScript';
 
-function typeSafe() {
-    let programming = 'TypeScript'
-    console.log(programming);
+// function typeSafe() {
+//     let programming = 'TypeScript'
+//     console.log(programming);
+// }
+
+// typeSafe();
+// console.log(programming);
+
+
+let tinggi = 8;
+if(tinggi > 5) {
+    let lebar = 10;
+    console.log('Lebar: ', lebar);
 }
 
-typeSafe();
-console.log(programming);
+console.log('Tinggi: ', tinggi);
+
+for (let index = 0; index < 10; index++) {
+    const lebar = index;
+    console.log('Lebar lebih kecil dari 10: ', lebar);
+}
