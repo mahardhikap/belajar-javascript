@@ -418,6 +418,11 @@
 // const hasil = perpangkatan(5);
 
 
-const hasil = function(x) {
+// const hasil = function(x) {
+//   return x * x;
+// }
+
+
+const perpangkatan = (x) => {
   return x * x;
 }
