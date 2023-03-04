@@ -368,10 +368,16 @@
 //   }
 // }
 
-// const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // const angkaDouble = angka.map(function(num) {
 //     return num * 2;
 // })
+const angkaGanjil = angka.filter(n => {
+  return n % 2 === 1;
+});
+const angkaBaru = angka.filter(n => {
+  return n < 5;
+});
 
 // angka.forEach(function (el) {
 //   if (el % 2 === 0) {
@@ -437,6 +443,6 @@
 // console.log('Saya pergi ya..');
 
 
-const interval = setInterval(() => {
-  console.log(Math.floor(Math.random() * 100))
-}, 2000);
+// const interval = setInterval(() => {
+//   console.log(Math.floor(Math.random() * 100))
+// }, 2000);
