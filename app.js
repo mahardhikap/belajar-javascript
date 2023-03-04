@@ -492,7 +492,7 @@
 const person = {
   firstName: "Mahardhika",
   lastName: "Pratama",
-  fullName: function () {
+  fullName: () => {
     return `${this.firstName} ${this.lastName}`;
   },
 };
