@@ -428,6 +428,6 @@
 // }
 
 
-const random = () => {
-  return Math.floor(Math.random() * 30);
-}
+const random = () => (
+  Math.floor(Math.random() * 30)
+);
