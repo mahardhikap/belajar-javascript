@@ -368,16 +368,16 @@
 //   }
 // }
 
-const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // const angkaDouble = angka.map(function(num) {
 //     return num * 2;
 // })
-const angkaGanjil = angka.filter(n => {
-  return n % 2 === 1;
-});
-const angkaBaru = angka.filter(n => {
-  return n < 5;
-});
+// const angkaGanjil = angka.filter(n => {
+//   return n % 2 === 1;
+// });
+// const angkaBaru = angka.filter(n => {
+//   return n < 5;
+// });
 
 // angka.forEach(function (el) {
 //   if (el % 2 === 0) {
@@ -385,28 +385,46 @@ const angkaBaru = angka.filter(n => {
 //   }
 // });
 
-// const animes = [
-//   {
-//     title: "Attack On Titan",
-//     rating: 90,
-//   },
-//   {
-//     title: "One Piece",
-//     rating: 89,
-//   },
-//   {
-//     title: "Bleach",
-//     rating: 88,
-//   },
-//   {
-//     title: "Hunter x Hunter",
-//     rating: 50,
-//   },
-//   {
-//     title: "Naruto",
-//     rating: 80,
-//   },
-// ];
+const animes = [
+  {
+    title: "Attack On Titan",
+    rating: 90,
+    year: 2014,
+  },
+  {
+    title: "One Piece",
+    rating: 89,
+    year: 1999,
+  },
+  {
+    title: "Bleach",
+    rating: 88,
+    year: 2008,
+  },
+  {
+    title: "Hunter x Hunter",
+    rating: 50,
+    year: 2015,
+  },
+  {
+    title: "Naruto",
+    rating: 80,
+    year: 2002,
+  },
+];
+
+
+const animeBagus = animes.filter(anime => {
+  return anime.rating >= 85;
+});
+
+const animeCukupBagus = animes.filter(anime => {
+  return anime.rating <= 80;
+});
+
+const animeBaru = animes.filter(anime => {
+  return anime.year > 2010
+})
 
 // animes.forEach(function (anime) {
 //   console.log(`${anime.title} - ${anime.rating}/100`);
