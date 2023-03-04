@@ -379,33 +379,40 @@
 //   }
 // });
 
-const animes = [
-  {
-    title: "Attack On Titan",
-    rating: 90,
-  },
-  {
-    title: "One Piece",
-    rating: 89,
-  },
-  {
-    title: "Bleach",
-    rating: 88,
-  },
-  {
-    title: "Hunter x Hunter",
-    rating: 50,
-  },
-  {
-    title: "Naruto",
-    rating: 80,
-  },
-];
+// const animes = [
+//   {
+//     title: "Attack On Titan",
+//     rating: 90,
+//   },
+//   {
+//     title: "One Piece",
+//     rating: 89,
+//   },
+//   {
+//     title: "Bleach",
+//     rating: 88,
+//   },
+//   {
+//     title: "Hunter x Hunter",
+//     rating: 50,
+//   },
+//   {
+//     title: "Naruto",
+//     rating: 80,
+//   },
+// ];
 
 // animes.forEach(function (anime) {
 //   console.log(`${anime.title} - ${anime.rating}/100`);
 // });
 
-const animeList = animes.map(function(anime) {
-    return anime.title.toUpperCase();
-})
+// const animeList = animes.map(function(anime) {
+//     return anime.title.toUpperCase();
+// })
+
+
+function perpangkatan(x) {
+  return x * x;
+}
+
+const hasil = perpangkatan(5);
