@@ -386,7 +386,6 @@
 //   }
 // });
 
-
 // const examScore = [80, 85, 70, 90, 93, 77];
 // const isGraduate = examScore.every((score) => score >= 75);
 
@@ -399,50 +398,48 @@
 //   return total + score;
 // });
 
+// const animes = [
+//   {
+//     title: "Attack On Titan",
+//     rating: 90,
+//     year: 2014,
+//   },
+//   {
+//     title: "One Piece",
+//     rating: 89,
+//     year: 1999,
+//   },
+//   {
+//     title: "Bleach",
+//     rating: 95,
+//     year: 2008,
+//   },
+//   {
+//     title: "Hunter x Hunter",
+//     rating: 50,
+//     year: 2015,
+//   },
+//   {
+//     title: "Naruto",
+//     rating: 80,
+//     year: 2002,
+//   },
+// ];
 
-const animes = [
-  {
-    title: "Attack On Titan",
-    rating: 90,
-    year: 2014,
-  },
-  {
-    title: "One Piece",
-    rating: 89,
-    year: 1999,
-  },
-  {
-    title: "Bleach",
-    rating: 95,
-    year: 2008,
-  },
-  {
-    title: "Hunter x Hunter",
-    rating: 50,
-    year: 2015,
-  },
-  {
-    title: "Naruto",
-    rating: 80,
-    year: 2002,
-  },
-];
-
-const bestAnime = animes.reduce((bestAnime, currentAnime) => {
-  if(currentAnime.rating > bestAnime.rating) {
-    return currentAnime;
-  }
-  return bestAnime;
-});
+// const bestAnime = animes.reduce((bestAnime, currentAnime) => {
+//   if(currentAnime.rating > bestAnime.rating) {
+//     return currentAnime;
+//   }
+//   return bestAnime;
+// });
 
 // const isAnimeListNew = animes.some((anime) => anime.year > 2010);
-
 
 // const animeBagus = animes.filter(anime => {
 //   return anime.rating >= 85;
 // });
 
-// const judulAnimeBagus = animes 
+// const judulAnimeBagus = animes
 //   .filter((anime) => anime.rating >= 85)
 //   .map((anime) => anime.title);
 
@@ -488,7 +485,14 @@ const bestAnime = animes.reduce((bestAnime, currentAnime) => {
 // }, 5000);
 // console.log('Saya pergi ya..');
 
-
 // const interval = setInterval(() => {
 //   console.log(Math.floor(Math.random() * 100))
 // }, 2000);
+
+const person = {
+  firstName: "Mahardhika",
+  lastName: "Pratama",
+  fullName: function () {
+    return `${this.firstName} ${this.lastName}`;
+  },
+};
