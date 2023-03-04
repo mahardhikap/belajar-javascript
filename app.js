@@ -495,4 +495,9 @@ const person = {
   fullName: () => {
     return `${this.firstName} ${this.lastName}`;
   },
+  panggilNanti: function () {
+    setTimeout(function () {
+      console.log(this.firstName);
+    }, 3000);
+  },
 };
