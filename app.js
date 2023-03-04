@@ -411,8 +411,13 @@
 // })
 
 
-function perpangkatan(x) {
+// function perpangkatan(x) {
+//   return x * x;
+// }
+
+// const hasil = perpangkatan(5);
+
+
+const hasil = function(x) {
   return x * x;
 }
-
-const hasil = perpangkatan(5);
