@@ -430,8 +430,13 @@
 
 // const add = (a, b) => a + b;
 
-console.log("Halo...");
-setTimeout(() => {
-  console.log("Masih di sana nggak...");
-}, 5000);
-console.log('Saya pergi ya..');
+// console.log("Halo...");
+// setTimeout(() => {
+//   console.log("Masih di sana nggak...");
+// }, 5000);
+// console.log('Saya pergi ya..');
+
+
+setInterval(() => {
+  console.log(Math.floor(Math.random() * 100))
+}, 2000);
