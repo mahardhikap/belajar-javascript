@@ -410,26 +410,27 @@
 //     return anime.title.toUpperCase();
 // })
 
-
 // function perpangkatan(x) {
 //   return x * x;
 // }
 
 // const hasil = perpangkatan(5);
 
-
 // const hasil = function(x) {
 //   return x * x;
 // }
-
 
 // const perpangkatan = (x) => {
 //   return x * x;
 // }
 
-
 // const random = () => (
 //   Math.floor(Math.random() * 30)
 // );
 
-const add = (a, b) => a + b;
+// const add = (a, b) => a + b;
+
+console.log("Halo...");
+setTimeout(() => {
+  console.log("Masih di sana nggak...");
+}, 5000);
