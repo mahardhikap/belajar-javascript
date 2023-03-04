@@ -437,6 +437,6 @@
 // console.log('Saya pergi ya..');
 
 
-setInterval(() => {
+const interval = setInterval(() => {
   console.log(Math.floor(Math.random() * 100))
 }, 2000);
