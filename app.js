@@ -418,9 +418,9 @@ const animeBagus = animes.filter(anime => {
   return anime.rating >= 85;
 });
 
-const judulAnimeBagus = animeBagus.map(anime => {
-  return anime.title
-})
+const judulAnimeBagus = animes 
+  .filter((anime) => anime.rating >= 85)
+  .map((anime) => anime.title);
 
 const animeCukupBagus = animes.filter(anime => {
   return anime.rating <= 80;
