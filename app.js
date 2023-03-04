@@ -387,7 +387,7 @@
 // });
 
 
-const examScore = [80, 85, 70, 90, 93, 77];
+// const examScore = [80, 85, 70, 90, 93, 77];
 // const isGraduate = examScore.every((score) => score >= 75);
 
 // let total = 0;
@@ -395,38 +395,45 @@ const examScore = [80, 85, 70, 90, 93, 77];
 //   total += score;
 // }
 
-const total = examScore.reduce((total, score) => {
-  return total + score;
+// const total = examScore.reduce((total, score) => {
+//   return total + score;
+// });
+
+
+const animes = [
+  {
+    title: "Attack On Titan",
+    rating: 90,
+    year: 2014,
+  },
+  {
+    title: "One Piece",
+    rating: 89,
+    year: 1999,
+  },
+  {
+    title: "Bleach",
+    rating: 95,
+    year: 2008,
+  },
+  {
+    title: "Hunter x Hunter",
+    rating: 50,
+    year: 2015,
+  },
+  {
+    title: "Naruto",
+    rating: 80,
+    year: 2002,
+  },
+];
+
+const bestAnime = animes.reduce((bestAnime, currentAnime) => {
+  if(currentAnime.rating > bestAnime.rating) {
+    return currentAnime;
+  }
+  return bestAnime;
 });
-
-
-// const animes = [
-//   {
-//     title: "Attack On Titan",
-//     rating: 90,
-//     year: 2014,
-//   },
-//   {
-//     title: "One Piece",
-//     rating: 89,
-//     year: 1999,
-//   },
-//   {
-//     title: "Bleach",
-//     rating: 88,
-//     year: 2008,
-//   },
-//   {
-//     title: "Hunter x Hunter",
-//     rating: 50,
-//     year: 2015,
-//   },
-//   {
-//     title: "Naruto",
-//     rating: 80,
-//     year: 2002,
-//   },
-// ];
 
 // const isAnimeListNew = animes.some((anime) => anime.year > 2010);
 
