@@ -387,7 +387,7 @@
 // });
 
 
-const examScore = [80, 85, 79, 90, 93, 77];
+const examScore = [80, 85, 79, 90, 93, 77, 70];
 const isGraduate = examScore.every((score) => score >= 75);
 
 
