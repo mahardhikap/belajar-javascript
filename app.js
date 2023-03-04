@@ -390,11 +390,14 @@
 const examScore = [80, 85, 70, 90, 93, 77];
 // const isGraduate = examScore.every((score) => score >= 75);
 
-let total = 0;
-for (let score of examScore) {
-  total += score;
-}
+// let total = 0;
+// for (let score of examScore) {
+//   total += score;
+// }
 
+const total = examScore.reduce((total, score) => {
+  return total + score;
+});
 
 
 // const animes = [
