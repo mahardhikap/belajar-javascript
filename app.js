@@ -387,38 +387,40 @@
 // });
 
 
-const examScore = [80, 85, 79, 90, 93, 77, 70];
-const isGraduate = examScore.every((score) => score >= 75);
+// const examScore = [80, 85, 79, 90, 93, 77, 70];
+// const isGraduate = examScore.every((score) => score >= 75);
 
 
 
-// const animes = [
-//   {
-//     title: "Attack On Titan",
-//     rating: 90,
-//     year: 2014,
-//   },
-//   {
-//     title: "One Piece",
-//     rating: 89,
-//     year: 1999,
-//   },
-//   {
-//     title: "Bleach",
-//     rating: 88,
-//     year: 2008,
-//   },
-//   {
-//     title: "Hunter x Hunter",
-//     rating: 50,
-//     year: 2015,
-//   },
-//   {
-//     title: "Naruto",
-//     rating: 80,
-//     year: 2002,
-//   },
-// ];
+const animes = [
+  {
+    title: "Attack On Titan",
+    rating: 90,
+    year: 2014,
+  },
+  {
+    title: "One Piece",
+    rating: 89,
+    year: 1999,
+  },
+  {
+    title: "Bleach",
+    rating: 88,
+    year: 2008,
+  },
+  {
+    title: "Hunter x Hunter",
+    rating: 50,
+    year: 2015,
+  },
+  {
+    title: "Naruto",
+    rating: 80,
+    year: 2002,
+  },
+];
+
+const isAnimeListNew = animes.some((anime) => anime.year > 2010);
 
 
 // const animeBagus = animes.filter(anime => {
