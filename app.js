@@ -434,3 +434,4 @@ console.log("Halo...");
 setTimeout(() => {
   console.log("Masih di sana nggak...");
 }, 5000);
+console.log('Saya pergi ya..');
