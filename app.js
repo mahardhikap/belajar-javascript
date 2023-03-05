@@ -518,14 +518,18 @@
 
 // const campuran = [...angka, ...nama];
 
-const user = {
-  name: "Mahardhika",
-  email: "mahardhika@belajar.com",
-};
+// const user = {
+//   name: "Mahardhika",
+//   email: "mahardhika@belajar.com",
+// };
 
-const credential = {
-  password: "pass1234",
-  token: "123912nkn213n12njadasdkas123aksdal1",
-};
+// const credential = {
+//   password: "pass1234",
+//   token: "123912nkn213n12njadasdkas123aksdal1",
+// };
 
-const userBaru = {...user, ...credential};
+// const userBaru = {...user, ...credential};
+
+const sumAll = (...nums) => {
+  return nums.reduce((total, el) => total + el);
+};
