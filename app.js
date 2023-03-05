@@ -530,6 +530,15 @@
 
 // const userBaru = {...user, ...credential};
 
-const sumAll = (...nums) => {
-  return nums.reduce((total, el) => total + el);
+// const sumAll = (...nums) => {
+//   return nums.reduce((total, el) => total + el);
+// };
+
+const nama = ["Alex", "Bimo", "Cici", "Delila", "Felix", "Gerard", "Huey"];
+
+const pemenang = (gold, silver, bronze, ...sisa) => {
+  console.log(`Medali emas diraih: ${gold}`);
+  console.log(`Medali silver diraih: ${silver}`);
+  console.log(`Medali bronze diraih: ${bronze}`);
+  console.log(`Peserta yang belum beruntung: ${sisa}`);
 };
