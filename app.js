@@ -517,4 +517,4 @@
 const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const nama = ['Alex', 'Bimo', 'Cici', 'Delila', 'Felix'];
 
-const campuran = [...angka, 0, 'Wong'];
+const campuran = [...angka, ...nama];
