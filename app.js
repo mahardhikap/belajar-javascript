@@ -534,7 +534,7 @@
 //   return nums.reduce((total, el) => total + el);
 // };
 
-const nama = ["Alex", "Bimo", "Cici", "Delila", "Felix", "Gerard", "Huey"];
+// const nama = ["Alex", "Bimo", "Cici", "Delila", "Felix", "Gerard", "Huey"];
 
 // const pemenang = (gold, silver, bronze, ...sisa) => {
 //   console.log(`Medali emas diraih: ${gold}`);
@@ -543,5 +543,11 @@ const nama = ["Alex", "Bimo", "Cici", "Delila", "Felix", "Gerard", "Huey"];
 //   console.log(`Peserta yang belum beruntung: ${sisa}`);
 // };
 
+// const [gold, silver, bronze, ...peserta] = nama;
 
-const [gold, silver, bronze, ...peserta] = nama;
+const user = {
+  name: "Mahardhika",
+  email: "mahardhika@belajar.com",
+};
+
+const { name, email } = user;
