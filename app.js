@@ -497,7 +497,10 @@
 //   },
 // };
 
+// function lemparDadu(sisi = 6) {
+//   return Math.floor(Math.random() * sisi) + 1;
+// }
 
-function lemparDadu(sisi = 6) {
-  return Math.floor(Math.random() * sisi) + 1;
+function sapa(name = 'user', msg = 'selamat bekerja') {
+  console.log(`${name}, ${msg}`);
 }
