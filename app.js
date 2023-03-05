@@ -548,6 +548,11 @@
 const user = {
   name: "Mahardhika",
   email: "mahardhika@belajar.com",
+  role: "Admin",
 };
 
-const { name, email, phone = '08123456789' } = user;
+// const { name, email, phone = '08123456789' } = user;
+
+const userAndRole = ({ name, role }) => {
+  return `${name} ${role}`;
+};
