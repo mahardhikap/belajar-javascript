@@ -489,10 +489,15 @@
 //   console.log(Math.floor(Math.random() * 100))
 // }, 2000);
 
-const person = {
-  firstName: "Mahardhika",
-  lastName: "Pratama",
-  fullName: function () {
-    return `${this.firstName} ${this.lastName}`;
-  },
-};
+// const person = {
+//   firstName: "Mahardhika",
+//   lastName: "Pratama",
+//   fullName: function () {
+//     return `${this.firstName} ${this.lastName}`;
+//   },
+// };
+
+
+function lemparDadu(sisi) {
+  return Math.floor(Math.random() * sisi) + 1;
+}
