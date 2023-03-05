@@ -550,4 +550,4 @@ const user = {
   email: "mahardhika@belajar.com",
 };
 
-const { name, email } = user;
+const { name, email, phone = '08123456789' } = user;
