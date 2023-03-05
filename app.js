@@ -557,7 +557,6 @@
 //   return `${name} ${role}`;
 // };
 
-
 const animes = [
   {
     title: "Attack On Titan",
@@ -586,7 +585,6 @@ const animes = [
   },
 ];
 
-
-const anime = animes.map((anime) => {
-  return `${anime.title} (${anime.year}) rating ${anime.rating}`
-})
+const anime = animes.map(({title, year, rating}) => {
+  return `${title} (${year}) rating ${rating}`;
+});
