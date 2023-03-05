@@ -505,10 +505,16 @@
 //   console.log(`${name}, ${msg}`);
 // }
 
-const angka = [23, 45, 21, 25, 33, 14, 15, 20, 22];
-function angkaMax() {
-  return Math.max(...angka);
-}
-function angkaMin() {
-  return Math.min(...angka);
-}
+// const angka = [23, 45, 21, 25, 33, 14, 15, 20, 22];
+// function angkaMax() {
+//   return Math.max(...angka);
+// }
+// function angkaMin() {
+//   return Math.min(...angka);
+// }
+
+
+const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const nama = ['Alex', 'Bimo', 'Cici', 'Delila', 'Felix'];
+
+angka.push(0);
