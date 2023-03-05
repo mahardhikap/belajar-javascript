@@ -498,6 +498,6 @@
 // };
 
 
-function lemparDadu(sisi) {
+function lemparDadu(sisi = 6) {
   return Math.floor(Math.random() * sisi) + 1;
 }
