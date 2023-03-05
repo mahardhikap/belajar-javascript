@@ -545,14 +545,48 @@
 
 // const [gold, silver, bronze, ...peserta] = nama;
 
-const user = {
-  name: "Mahardhika",
-  email: "mahardhika@belajar.com",
-  role: "Admin",
-};
+// const user = {
+//   name: "Mahardhika",
+//   email: "mahardhika@belajar.com",
+//   role: "Admin",
+// };
 
 // const { name, email, phone = '08123456789' } = user;
 
-const userAndRole = ({ name, role }) => {
-  return `${name} ${role}`;
-};
+// const userAndRole = ({ name, role }) => {
+//   return `${name} ${role}`;
+// };
+
+
+const animes = [
+  {
+    title: "Attack On Titan",
+    rating: 90,
+    year: 2014,
+  },
+  {
+    title: "One Piece",
+    rating: 89,
+    year: 1999,
+  },
+  {
+    title: "Bleach",
+    rating: 95,
+    year: 2008,
+  },
+  {
+    title: "Hunter x Hunter",
+    rating: 50,
+    year: 2015,
+  },
+  {
+    title: "Naruto",
+    rating: 80,
+    year: 2002,
+  },
+];
+
+
+const anime = animes.map((anime) => {
+  return `${anime.title} (${anime.year}) rating ${anime.rating}`
+})
