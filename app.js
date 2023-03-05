@@ -501,6 +501,14 @@
 //   return Math.floor(Math.random() * sisi) + 1;
 // }
 
-function sapa(name = 'user', msg = 'selamat bekerja') {
-  console.log(`${name}, ${msg}`);
+// function sapa(name = 'user', msg = 'selamat bekerja') {
+//   console.log(`${name}, ${msg}`);
+// }
+
+const angka = [23, 45, 21, 25, 33, 14, 15, 20, 22];
+function angkaMax() {
+  return Math.max(...angka);
+}
+function angkaMin() {
+  return Math.min(...angka);
 }
