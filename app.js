@@ -513,8 +513,19 @@
 //   return Math.min(...angka);
 // }
 
+// const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const nama = ['Alex', 'Bimo', 'Cici', 'Delila', 'Felix'];
 
-const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-const nama = ['Alex', 'Bimo', 'Cici', 'Delila', 'Felix'];
+// const campuran = [...angka, ...nama];
 
-const campuran = [...angka, ...nama];
+const user = {
+  name: "Mahardhika",
+  email: "mahardhika@belajar.com",
+};
+
+const credential = {
+  password: "pass1234",
+  token: "123912nkn213n12njadasdkas123aksdal1",
+};
+
+const userBaru = {...user, ...credential};
